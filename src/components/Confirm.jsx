@@ -10,7 +10,7 @@ function Confirm({display,onRespond}) {
     }
 
   return (
-    <div className={`${display===true?'flex justify-center items-center h-screen bg-slate-900 bg-opacity-15 ':'hidden'} `}>
+    <div className={`${display===true?'flex justify-center items-center h-screen bg-indigo-600 bg-opacity-15 ':'hidden'} `}>
         <div className='w-fit bg-white shadow-lg rounded-lg text-lg p-6 space-y-4 '>
             <div className="text-slate-950 font-medium">
                 Confirm to Dump the Task...
